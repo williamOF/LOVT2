@@ -1,0 +1,262 @@
+
+
+*{
+    box-sizing: border-box;
+}
+html{
+    background-color: #dddddd;
+}
+
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  background-color: #ffff;
+
+}
+div#corpo{
+    margin: 0 auto;
+    width: 95%;
+}
+
+/*Header da pagina e logo*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 45px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0,.4);
+    margin-bottom: 30px;
+}
+
+.container{
+    display: flex;
+    height: 70%;
+}
+
+.container span{
+    width: 65px;
+    font-size: 10pt;
+    color: rgba(0, 0, 0,.4);
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+header ul a {
+    text-decoration: none;
+    color: #333333;
+    padding: 5px;
+    margin: auto 10px;
+    font-size: 10pt;
+}
+header li:hover{
+    background-color: #dddddd93;
+    border-radius: 15px;
+    -webkit-transform: scale(1.2);
+}
+
+/*painel de slides com width 100%*/
+.painelTop{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+}
+
+img#imgFull{
+    display: flex;
+    width: 100%;
+}
+.setaEsquerda{
+    position: absolute;
+  
+    display: flex;
+    background-color: #dddddd65;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+}
+.setaEsquerda:hover{
+    background-color: #33333367;
+}
+.setaDireita{
+  
+    right: 0;
+    position: absolute;
+    display: flex;
+    background-color: #dddddd65;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+}
+.setaDireita:hover{
+    background-color: #33333367;
+}
+
+/* quadro de anuncios da pagina*/
+
+.anuncios{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.paineis p{
+    text-align: justify;
+    text-indent: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+.paineis{
+    margin-top: 30px;
+    width: 45%;
+    background-color: #dddddd;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0,.4);
+    border-radius: 5px;
+}
+
+.paineis figure{
+    width: 100%;
+    margin: 0px;
+}
+
+.paineis img{
+    width: 100%;
+}
+
+.paineis div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    font-size: 18pt;
+}
+.paineis span#venda{
+    background-color: #DC9730;
+    padding: 2px 15px;
+    border-radius: 15px;
+    color: white;
+}
+.paineis span#novo{
+    background-color: #51D275;
+    padding: 2px 15px;
+    border-radius: 15px;
+    color: white;
+}
+
+/*Paineis da parte inferior da pagina*/
+
+.paineisBotom{
+    margin: 45px 0;
+}
+
+div#yourSyle{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.paineisBotom figure{
+    position: relative;
+    width: 100%;
+    height: max-content;
+    margin: 10px 0;
+}
+.paineisBotom img{
+
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0,.4);
+    border-radius: 10px;
+}
+.paineisBotom figcaption{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 97%;
+
+    z-index: 10;
+}
+.paineisBotom span{
+    display: flex;
+    background-color: #dddddd77;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    font-size: 20pt;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.paineisBotom span:hover{
+    opacity: 1;
+}
+
+/*formulario da pagina*/
+
+.formulario{
+    margin: 30px 0;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.formulario input{
+
+    width: 40%;
+    height: 30px;
+}
+.formulario textarea{
+   width: 45%;
+}
+.formulario button{
+    background-color: #DC9730;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+/*formatacao do rodape da pagina*/
+
+footer{
+    margin-top: 60px;
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333333;
+    color: white;
+}
+
+.contat{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+}
+.contat h5{
+    margin: 10px 0;
+}
+.contat ul{
+    display: flex;
+    padding: 5px;
+    margin: 0px;
+    list-style: none;
+}
+.contat li{
+    padding: 5px;
+    margin: 5px;
+}
+div.mapa:hover{
+    -webkit-transform: scale(1.5);
+}

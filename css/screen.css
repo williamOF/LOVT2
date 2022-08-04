@@ -1,0 +1,38 @@
+@media screen  and (min-width: 900px){
+    body{
+        width: 900px ;
+        margin: 0 auto;
+
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .anuncios{
+        flex-direction: column;
+    }
+    .paineis{
+        width: 70%;
+    }
+    div#corpo{
+        width: 100%;
+    }
+    div.mapa:hover{
+        -webkit-transform: scale(1.2);
+    }
+}
+@media screen and (max-width: 500px){
+
+    .paineis{
+        width: 80%;
+    }
+    footer{
+        flex-direction: column;
+        height: 500px;
+    }
+    div.mapa:hover{
+        -webkit-transform: scale(1.1);
+    }
+
+}
+
